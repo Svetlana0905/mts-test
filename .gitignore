@@ -1,0 +1,12 @@
+node_modules
+.webp
+.DS_Store
+.vscode
+
+build
+my-app
+node_modules
+package-lock.json
+gulp/version.json
+docs
+gulp

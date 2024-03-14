@@ -1,0 +1,18 @@
+.header {
+  margin-bottom: 29px;
+	padding: 50px 0;
+  background-color: var(--page-bg-secondary);
+  box-shadow: 0 9px 15px 0 var(--b-shadow);
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.header__nav {
+	@include tablet {
+		display: none;
+	}
+}

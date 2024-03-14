@@ -1,0 +1,35 @@
+:root {
+  --container-width: 85%;
+  --container-padding: 15px;
+
+  --font-main: sans-serif;
+  --font-accent: 'Manrope', sans-serif;
+  --font-titles: var(--font-accent);
+
+  --font-titles-secondary: #3196c1;
+  --page-bg: #fff;
+  --page-bg-header: #e4f7ff;
+  --page-bg-secondary: #f2f3f7;
+  --page-bg-footer: #f6fbff;
+  --text-color: #3e3e3e;
+  --accent: #ff0032;
+  --accent-dark: #b30517;
+  --accent-middle: #cc061a;
+  --link-color: #2578c8;
+  --link-color-for-dark: #4f7bbc;
+  --b-shadow: #e6e7e8;
+  --btn-focus-shadow:#a37676;
+
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
+}
+
+$standartTrans: all 1s ease-in-out 0ms;
+$fastTrans: all 0.5s ease-in-out 0ms;
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+  --link-color: #add8e6;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тест Гуир</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body>
+  @@include('blocks/header.html')
+  <main class="docs">
+    <section>
+      <div class="container container__first-screen">
+        <h2 class="title-1">Почему я хочу в ГУИР</h2>
+        <div class="content">
+          <p>Добрый день! Три года назад начала изучать верстку и веб-разработку. Я всегда была тем человеком, которому
+            важно видеть результат своих трудов, и по мере обучения поняла, что это именно та работа, которая мне
+            по-душе, так как здесь сразу видно все, что создается с помощью кода.</p>
+          <p>Заинтересована в вакансии Старший специалист в команде "СУЗ" так как вижу для себя возможность участия в
+            разработке и поддержке Суза. Люблю фронтенд и верстку, поэтому хочу усовершенствовать свои навыки в создании
+            не только красивых, но и
+            удобных, кроссбраузерных и интуитивно понятных интерфейсов, помочь в улучшении пользовательского опыта
+            сотрудников, а так же поработать в команде с высоким уровнем экспертизы.</p>
+            <p>Цвета для тестового задания брала с сайта МТС. При нажатии на кнопку меняется фон секции с контентом.</p>
+        </div>
+        <div class="hover-image-scale">
+          <!-- <figure> -->
+          <img class="hover-image-scale" src="./img/project-02.jpg"
+            alt="Альтернативный текст для картинки, если не загрузится">
+          <!-- <figcaption></figcaption>
+          </figure> -->
+        </div>
+        <button class="button" id="change-color-button">Изменить стиль</button>
+      </div>
+    </section>
+  </main>
+  @@include('blocks/footer.html')
+  <script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
