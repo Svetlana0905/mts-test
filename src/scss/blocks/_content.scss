@@ -1,7 +1,10 @@
 .content {
 display: flex;
 flex-direction: column;
-text-align: center;
 gap: 15px;
 margin-bottom: 32px;
+&__text {
+  width: 85%;
+  align-self: center;
+}
 }
