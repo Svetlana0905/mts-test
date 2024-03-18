@@ -1,6 +1,9 @@
+.block-img {
+  display: flex;
+  gap: 20px;
+}
+
 .hover-image-scale {
-  display: inline-block;
-  width: fit-content;
   margin-bottom: 25px;
   overflow: hidden;
   box-shadow: none;

@@ -5,8 +5,7 @@
     "zip": "gulp deployZIP --build",
     "deployFTP": "gulp deployFTP --build",
     "svgSprive": "gulp svgSprive",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://svetlana0905.github.io/mts-test",
   "devDependencies": {
