@@ -1,9 +1,11 @@
-.block-img {
-  display: flex;
-  gap: 20px;
-}
+// .block-img {
+//   display: flex;
+//   gap: 20px;
+// }
 
 .hover-image-scale {
+  max-width: 800px;
+  max-height: 500px;
   margin-bottom: 25px;
   overflow: hidden;
   box-shadow: none;
